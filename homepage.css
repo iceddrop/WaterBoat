@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@500&family=Didact+Gothic&family=Kanit&family=Oswald&family=Play&family=Roboto&family=Saira:wght@700&family=Spline+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    color:black;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: black;
+}
+.zero-section{
+    height:210px;
+    width: 100%;
+}
+.zero-section ul{
+    position: relative;
+    top: 130px;
+    list-style: none;
+    color: white;
+}
+.zero-div{
+    text-align: start;
+    line-height: 0px;
+}
+.zero-section ul li{
+    display: flex;
+    padding: 15px;
+}
+.zero-div h6{
+    font-size: 20px;
+}
+.zero-div p{
+    font-size:13px;
+}
+.zero-section i{
+    background-color: white;
+    color: hsl(208, 100%, 51%);
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.image-1{
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+}
+.carousel-caption{
+    position: relative;
+    bottom: 250px!important;
+}
+
+ .title-1{
+    text-transform:capitalize;
+    font-family: oswald;
+    text-align: end;
+    font-size: 35px;
+}
+.paragraph-1{
+    text-align: end;
+    font-size: 15px;
+}
+.title-2{
+    text-align: center;
+    text-transform:capitalize;
+    font-family: oswald;
+    font-size: 35px;
+}
+.paragraph-2{
+    text-align: center;
+    font-size: 15px;
+}
+.btn-1{
+    color: white;
+    background-color: hsl(208, 100%, 51%);
+    border: none;
+    width: 150px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    margin-left: 70px;
+    font-family: oswald;
+    font-size: 16px;
+}
+.btn-2{
+    color: white;
+    background-color: hsl(208, 100%, 51%);
+    border: none;
+    width: 150px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: oswald;
+    font-size: 16px;  
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active{
+    transition: transform 2.2s ease;
+}
+.first-section i{
+    position: relative;
+    bottom: 80px;
+}
+.first-section i:hover{
+    color: hsl(208, 100%, 51%);
+}
+.second-section{
+    padding-top: 30px;
+}
+.image-2{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.title-3{
+    color: hsl(208, 100%, 51%);
+    font-family:dancing script ;
+}
+.title-4{
+    font-family: oswald;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.title-4:after{
+    content: "";
+    display: block; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid hsl(208, 100%, 51%); 
+}
+.paragraph-3{
+    font-size: 15px;
+    color:hsl(211, 12%, 48%);
+}
+.paragraph-4{
+    font-size:15px;
+    color:hsl(211, 12%, 48%) ;
+}
+.btn-3{
+    color: white;
+    background-color: hsl(208, 100%, 51%);
+    border: none;
+    width: 150px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: oswald;
+    font-size: 16px;
+}
+ .fa-ship:before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 93%);
+}
+.fa-shield-alt:before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 93%);
+}
+.fa-user-check:before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 93%);
+}
+.title-5{
+    font-family: oswald;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.div-3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.paragraph-5{
+    color: hsl(211, 12%, 48%);
+}
+.third-section{
+    padding-top: 50px;
+}
+
+#fixed-bg{
+    background-image: url(images/boats-1597885_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(208, 100%, 51%)!important;
+    background-blend-mode:multiply;
+    min-height:300px;
+    margin-bottom: 100px;
+}
+.third-section ul{
+    list-style: none;
+}
+.third-section h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: oswald;
+}
+.third-section p{
+     text-align: center;
+    color:white;
+    
+}
+.title-6{
+    color: hsl(208, 100%, 51%);
+    font-family:dancing script!important ;
+}
+.title-7{
+    font-family: oswald;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.fourth-section{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.card{
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+.card-title{
+    font-family: oswald;
+}
+.card-title i{
+    color: hsl(208, 100%, 51%);
+}
+.card-title a{
+    color: hsl(230, 69%, 10%);
+}
+.card-title a:hover{
+    color: hsl(230, 69%, 10%);
+    text-decoration: none;
+}
+.card-text{
+    color:hsl(211, 12%, 48%);
+}
+.price{
+    background-color: hsl(208, 100%, 51%);
+    color: white;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.image-3{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.title-8{
+    color: hsl(208, 100%, 51%);
+    font-family: dancing script;
+}
+.title-9{
+    font-family: oswald;
+}
+.title-9:after{
+    content: "";
+    display: block; 
+    width: 10%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid hsl(208, 100%, 51%); 
+}
+.fifth-section{
+    background-color: whitesmoke;
+    padding:100px 30px 70px 10px;
+}
+label{
+    color: hsl(211, 12%, 48%);
+}
+textarea{
+    height:140px!important;
+}
+.btn-4{
+    background-color: hsl(208, 100%, 51%);
+    color: white;
+    font-family: oswald;
+    border:none;
+    border-radius: 2px;
+    padding:12px 45px 12px 45px;
+}
+button{
+    transition: 1s ease;
+}
+button:hover{
+    background-color:hsl(229, 100%, 59%);
+}
+.title-10{
+    font-family: oswald;
+}
+.sixth-section{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.zoom{
+    position: relative;
+    height: 250px;
+    overflow:hidden;
+    margin-top: 50px;
+}
+.image-4{
+    width: 100%;
+    height: 250px;
+    display: block;
+    transition:transform 0.5s ease;
+}
+/*Trying out blur zoom out transition*/
+/*.zoom .image-4{
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: blur(1px);
+    transform: scale(1.2);
+}
+.zoom:hover.image-4{
+    filter: blur(0);
+    transform: scale(1);
+}*/
+.image-4:hover.image-4{
+    transform: scale(1.1);
+}
+.crew-info{
+    position: relative;
+    top:40px;
+}
+.sixth-section h5{
+    font-family: oswald;
+    font-size: 25px;
+}
+.sixth-section p{
+    font-family: oswald;
+    color: hsl(208, 100%, 51%);
+    font-size: 20px;
+}
+.fa-facebook.square{
+    position: absolute;
+    padding: 5px;
+    margin-top:-20px;
+}
+.sixth-section i{
+    transform: translateY(-40px);
+    color: white;
+    transition: 1s ease;
+    
+}
+.sixth-section i:hover{
+color: hsl(230, 69%, 10%);
+}
+/*.title-7:after{
+    content: "";
+    display: block; 
+    width: 17%; 
+    padding-top: 40px; 
+    
+    border-bottom: 2px solid hsl(208, 100%, 51%); 
+}*/
+
+@media only screen and (min-width:1200px) and (max-width:1440px){
+    
+    nav li a{
+        position: relative;
+        top: 20px;
+        left: 500px;
+        margin-right: 60px;
+        color: hsl(208, 100%, 51%);
+        font-size: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family:oswald;
+    }
+    nav li a:hover{
+        color: hsl(208, 100%, 51%);
+    }
+    nav  .active{
+        border-bottom: 1px  solid hsl(208, 100%, 51%);
+        
+    }
+    .carousel-caption{
+        position: relative;
+        bottom: 350px!important;
+    }
+    .paragraph-1{
+        padding-left:300px;
+    }
+    .btn-1{
+        margin-left: 750px;
+    }
+    .paragraph-2{
+        padding-left:150px ;
+        padding-right:150px;
+    }
+    .second-section{
+        padding-left: 130px!important;
+        padding-right:130px!important;
+    }
+    .third-section{
+        padding-top:80px;
+    }
+    #fixed-bg{
+        min-height: 250px;
+    }
+    .flex-items{
+        display: flex;
+    }
+    .col{
+        margin-left:60px;
+    }
+    .card{
+        width: 470px!important;
+    }
+    .destination-cards{
+        padding-left: 70px!important;
+        padding-right: 60px!important;
+    }
+    .card{
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    nav li a{
+        position: relative;
+        top: 27px;
+        left: 400px;
+        margin-right: 20px;
+        color: hsl(208, 100%, 51%);
+        font-size: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family:oswald;
+    }
+    nav li a:hover{
+        color: hsl(208, 100%, 51%);
+    }
+    nav  .active{
+        border-bottom: 1px  solid hsl(208, 100%, 51%);
+        
+    }
+    .carousel-caption{
+        position: relative;
+        bottom: 350px!important;
+    }
+    .paragraph-1{
+        padding-left:200px;
+    }
+    .btn-1{
+        margin-left: 550px;
+    }
+    .paragraph-2{
+        padding-left:100px ;
+        padding-right:100px;
+    }
+    .second-section{
+        padding-left: 130px!important;
+        padding-right:130px!important;
+    }
+    .second-section .div-2{
+        padding-top: 18px;
+    }
+    .third-section{
+        padding-top:80px;
+    }
+    #fixed-bg{
+        min-height: 250px;
+    }
+    .flex-items{
+        display: flex;
+    }
+    .col{
+        margin-left:35px;
+    }
+    .card{
+        width: 370px!important;
+    }
+    .destination-cards{
+        padding-left: 85px!important;
+        padding-right: 80px!important;
+    }
+    .image-4{
+        height:200px;
+    }
+    .zoom{
+        height:200px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .zero-section{
+        display: none;
+    }
+    .btn-1{
+        margin-left: 375px;
+    }
+    .image-1{
+        height: 1100px;
+    }
+    .carousel-caption{
+        position: relative;
+        bottom: 400px!important;
+    }
+    .second-section .div-2{
+        padding-top: 15px;
+    }
+    .third-section{
+        padding-top:80px;
+    }
+    #fixed-bg{
+        min-height: 250px;
+    }
+    .flex-items{
+        display: flex;
+    }
+    .col{
+        margin-left:5px;
+    }
+    .destination-cards{
+        padding-left: 40px!important;
+        padding-right: 50px!important;
+    }
+    .image-4{
+        height: 150px;
+    }
+    .zoom{
+        height: 150px;
+    }
+}
+@media only screen and (min-width:410px) and (max-width:420px){
+    .btn-1{
+        margin-left: 135px!important;
+    }
+    .title-3{
+        margin-top: 20px;
+    }
+    .destination-cards{
+        padding-left: 50px!important;
+    
+    }
+}
+@media only screen and (min-width:319px) and (max-width:426px){
+    .price{
+        margin-left: 35px;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:426px){
+    .btn-1{
+        margin-left: 105px;
+    }
+}  
+@media only screen and (min-width:319px) and (max-width:480px){
+    .zero-section{
+        display: none;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:376px) {
+    .destination-cards{
+        padding-left: 30px!important;
+    
+    }
+}
+@media only screen and (min-width:359px) and (max-width:361px){
+    .destination-cards{
+        padding-left: 20px!important;
+    
+    }
+    .image-4{
+        height:200px ;
+    }
+    .zoom{
+        height:200px;
+    }
+}
+@media only screen and (min-width:319px) and (max-width:321px){
+    .image-4{
+        height:195px ;
+    }
+    .zoom{
+        height: 195px;
+    }
+}
