@@ -10,6 +10,9 @@ nav li a:hover{
     text-decoration: none;
     color: black;
 }
+p{
+    font-family:didact gothic;
+}
 .zero-section{
     height:210px;
     width: 100%;
@@ -303,7 +306,7 @@ button:hover{
 }
 .sixth-section{
     padding-top:100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .zoom{
     position: relative;
@@ -356,6 +359,73 @@ button:hover{
 }
 .sixth-section i:hover{
 color: hsl(230, 69%, 10%);
+}
+.seventh-section{
+    padding-bottom: 100px;
+    padding-left: 45px!important;
+}
+.comment-box{
+    border:2px solid hsl(211, 12%, 48%);
+    width:250px;
+    padding-top:30px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:5px;
+}
+
+.fa-quote-right{
+    color:hsl(208, 100%, 51%);
+    margin-bottom:25px;
+}
+.image-5{
+    vertical-align: middle;
+    width:70px;
+    height:70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.customer{
+    font-size:20px;
+    font-family:didact gothic;
+    font-weight:600;
+}
+.customer-title{
+    color:hsl(211, 12%, 48%);
+}
+#fixed-bg-1{
+    background-image: url(images/sailing-ship-2903109_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(208, 100%, 51%)!important;
+    background-blend-mode:multiply;
+    min-height:300px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.title-10{
+    text-transform:capitalize;
+}
+.paragraph-6{
+    font-family:didact gothic
+}
+.btn-5{
+    background-color:hsl(40, 94%, 58%);
+    color:white;
+    font-family:oswald;
+    border:none;
+    border-radius: 2px;
+    padding:12px 45px 12px 45px;
+}
+.paragraph-7{
+    color:hsl(211, 12%, 48%);
+}
+.title-11{
+    text-transform:uppercase;
+    font-family:oswald;
+}
+footer ul{
+    list-style:none;
+    padding-top:10px;
 }
 /*.title-7:after{
     content: "";
@@ -417,14 +487,47 @@ color: hsl(230, 69%, 10%);
         margin-left:60px;
     }
     .card{
-        width: 470px!important;
+        width: 500px!important;
+        margin-top: 30px;
+    }
+    .card-1{
+        margin-left:100px;
     }
     .destination-cards{
-        padding-left: 70px!important;
+        padding-left: 90px!important;
         padding-right: 60px!important;
     }
-    .card{
-        margin-top: 30px;
+    .comment-box{
+        width: 500px;
+    }
+    .move-box-lg{
+        transform:translateY(-45px);
+    }
+    #fixed-bg-1{
+        min-height:250px;
+    }
+    .logo-div{
+        position:relative;
+        bottom:45px;
+    }
+    .list-1{
+     position:relative;
+     bottom:15px;
+    }
+}
+@media only screen and (min-width:1365px) and (max-width:1367px){
+      .card-1{
+          margin-right:60px!important;
+      }
+    .destination-cards{
+        padding-left: 90px!important;
+        padding-right: 60px!important;
+    }
+    .comment-box{
+        width: 400px;
+    }
+    .move-box-lg{
+        transform:translateY(-45px);
     }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
@@ -483,8 +586,8 @@ color: hsl(230, 69%, 10%);
         width: 370px!important;
     }
     .destination-cards{
-        padding-left: 85px!important;
-        padding-right: 80px!important;
+        padding-left: 120px!important;
+        padding-right: 100px!important;
     }
     .image-4{
         height:200px;
@@ -492,7 +595,25 @@ color: hsl(230, 69%, 10%);
     .zoom{
         height:200px;
     }
+    .comment-box{
+        width: 400px;
+    }
+    .move-box-lg{
+        transform:translateY(-45px);
+    }
+    #fixed-bg-1{
+        min-height:250px;
+    }
+    .logo-div{
+        position:relative;
+        bottom:45px;
+    }
+    .list-1{
+     position:relative;
+     bottom:15px;
+    }
 }
+
 @media only screen and (min-width:481px) and (max-width:768px) {
     .zero-section{
         display: none;
@@ -523,7 +644,7 @@ color: hsl(230, 69%, 10%);
         margin-left:5px;
     }
     .destination-cards{
-        padding-left: 40px!important;
+        padding-left: 80px!important;
         padding-right: 50px!important;
     }
     .image-4{
@@ -531,6 +652,12 @@ color: hsl(230, 69%, 10%);
     }
     .zoom{
         height: 150px;
+    }
+    .move-box-lg{
+        transform:translateY(-45px);
+    }
+    #fixed-bg-1{
+        min-height:250px;
     }
 }
 @media only screen and (min-width:410px) and (max-width:420px){
@@ -544,10 +671,54 @@ color: hsl(230, 69%, 10%);
         padding-left: 50px!important;
     
     }
+    .move-box{
+        transform:translateX(20px)!important;
+    }
 }
-@media only screen and (min-width:319px) and (max-width:426px){
+@media only screen and (min-width:411px) and (max-width:415px){
+    .zero-section{
+        display: none;
+    }
     .price{
         margin-left: 35px;
+    }
+    .destination-cards{
+        padding-left: 65px!important;
+    
+    }
+}
+@media only screen and (min-width:389px) and (max-width:393px){
+    .destination-cards{
+        padding-left: 50px!important;
+    
+    }
+}
+@media only screen and (min-width:359px) and (max-width:361px){
+     
+    .image-4{
+        height:200px ;
+    }
+    .zoom{
+        height:200px;
+    }
+    .move-box{
+        transform: translateX(15px);
+    }
+    .destination-cards{
+        padding-left: 45px!important;
+    
+    }
+}
+@media only screen and (min-width:319px) and (max-width:358px){
+    .zero-section{
+        display: none;
+    }
+    .price{
+        margin-left: 35px;
+    }
+    .destination-cards{
+        padding-left: 35px!important;
+    
     }
 }
 @media only screen and (min-width:360px) and (max-width:426px){
@@ -555,27 +726,18 @@ color: hsl(230, 69%, 10%);
         margin-left: 105px;
     }
 }  
-@media only screen and (min-width:319px) and (max-width:480px){
+@media only screen and (min-width:319px) and (max-width:540px){
     .zero-section{
         display: none;
+    }
+    .price{
+        margin-left: 35px;
     }
 }
 @media only screen and (min-width:375px) and (max-width:376px) {
     .destination-cards{
-        padding-left: 30px!important;
+        padding-left: 45px!important;
     
-    }
-}
-@media only screen and (min-width:359px) and (max-width:361px){
-    .destination-cards{
-        padding-left: 20px!important;
-    
-    }
-    .image-4{
-        height:200px ;
-    }
-    .zoom{
-        height:200px;
     }
 }
 @media only screen and (min-width:319px) and (max-width:321px){
