@@ -429,7 +429,7 @@ footer ul{
     list-style:none;
     padding-top:10px;
 }
-@media only screen and (min-width:2559px) and (max-width:3000px){
+@media only screen and (min-width:1800px) and (max-width:3000px){
     nav li a{
         position: relative;
         top: 20px;
