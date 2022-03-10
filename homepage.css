@@ -8,6 +8,8 @@ body{
 }
 nav li a{
     color:black;
+    font-family:oswald;
+    font-weight:500;
 }
 nav li a:hover{
     text-decoration: none;
